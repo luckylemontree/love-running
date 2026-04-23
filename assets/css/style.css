@@ -41,6 +41,10 @@ main {
         flex: 1 0 auto;
 }
 
+ul {
+       list-style-type:none
+}
+
 /* Footer */
 footer {
         background-color: orange;
