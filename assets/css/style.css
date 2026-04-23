@@ -38,6 +38,7 @@ header {
        
 }
 
+/**header the first line words*/
 header a {
         text-decoration: none;
         color: inherit;
@@ -52,19 +53,7 @@ header a {
         color: #252525;
 }
 
-#menu {
-        list-style-type: none;
-        letter-spacing: 4px;
-        font-size: 110%;
-}
-
-#menu>li {
-        margin-bottom:1em;
-}
-.active {
-        border-bottom:1px solid #353535;
-}
-
+/**input in header*/
 /*nav-toggle*/
 #nav-toggle:checked ~ nav {
        display:block;
@@ -77,6 +66,7 @@ header a {
         
 }
 
+/**nav bar in header*/
 /* styling nav bar to scoll*/
 nav {
         position:absolute;
@@ -91,12 +81,27 @@ nav {
 }
 
 
+#menu {
+        list-style-type: none;
+        letter-spacing: 4px;
+        font-size: 110%;
+}
+
+#menu>li {
+        margin-bottom:1em;
+}
+.active {
+        border-bottom:1px solid #353535;
+}
+
+
 
 /* Main =================start*/
 main {
         background-color: lightblue;
         /* Make main to take up any surplus to push down the footer*/
         flex: 1 0 auto;
+        margin-top:47px;
 }
 
 
