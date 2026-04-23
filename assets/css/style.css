@@ -110,14 +110,13 @@ main {
 
 
 /* Footer---------------start */
-footer {
-        background-color: orange;
-}
+
 /*footer icon */
-#footer-style {
-        display:flex;
-        justify-content:space-between;
-        padding:2px 30%;
+#social-network {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 20px 0;
         list-style-type: none;
 }
 
@@ -138,46 +137,47 @@ footer {
         }
 
 
-/**input in header*/
+        /**input in header*/
 
 
-.nav-toggle-label {
+        .nav-toggle-label {
 
-        display: none;
+                display: none;
 
-}
+        }
 
-/**nav bar in header*/
+        /**nav bar in header*/
 
-nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        padding-right: 0.5rem;
-        box-shadow: none;
-        border-left: none;
+        nav {
+                display: block;
+                position: relative;
+                width: fit-content;
+                padding-right: 0.5rem;
+                box-shadow: none;
+                border-left: none;
 
-}
+        }
 
-/*ul class :change to row*/
-#menu {
+        /*ul class :change to row*/
+        #menu {
 
-        display: flex;
+                display: flex;
 
-}
+        }
 
-#menu>li {
+        #menu>li {
 
-        padding-left: 1.5rem; /* Get space for three lists*/
-}
+                padding-left: 1.5rem;
+                /* Get space for three lists*/
+        }
 
 
 
-/* Main =================start*/
-main {
-      
-        margin-top: 79px;
-}
+        /* Main =================start*/
+        main {
+
+                margin-top: 79px;
+        }
 
 }
 
