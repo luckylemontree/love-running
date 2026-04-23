@@ -31,12 +31,17 @@ header {
         position: fixed;
         width: 100%;
         z-index: 99;
-        box-shadow: 0 2px 2px #3a3a3a;
+        box-shadow: 0 2px 2px #3a3a3a;       
+        display:flex;
+        justify-content:flex-start;
+        align-items:baseline
+       
 }
 
 header a {
         text-decoration: none;
         color: inherit;
+       
 }
 
 /*Set logo to Oswald font family*/
@@ -60,7 +65,32 @@ header a {
         border-bottom:1px solid #353535;
 }
 
-/* Header----------------------------end*/
+/*nav-toggle*/
+#nav-toggle:checked ~ nav {
+       display:block;
+}
+#nav-toggle {
+        display:none;
+}
+.nav-toggle-roll {
+        font-size:2em;
+        
+}
+
+/* styling nav bar to scoll*/
+nav {
+        position:absolute;
+        background-color: #ffffff;
+        width:100%;
+        padding:0 1em;
+        box-shadow: 0 2px 2px #3a3a3a;
+        left:0;
+        display:none;
+        top:100%;
+        
+}
+
+
 
 /* Main =================start*/
 main {
@@ -69,11 +99,10 @@ main {
         flex: 1 0 auto;
 }
 
-/* Main =================end*/
+
 
 
 /* Footer---------------start */
 footer {
         background-color: orange;
 }
-/* Footer---------------end */
