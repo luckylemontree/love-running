@@ -113,6 +113,13 @@ main {
 footer {
         background-color: orange;
 }
+/*footer icon */
+#footer-style {
+        display:flex;
+        justify-content:space-between;
+        padding:2px 30%;
+        list-style-type: none;
+}
 
 /*************************************************/
 /*************Media query:tablets and larger(768px and up)*/
