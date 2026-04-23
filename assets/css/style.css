@@ -48,8 +48,9 @@ header a {
 #logo {
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
         color: #252525;
+        text-size:120;
 }
 
 /**input in header*/
@@ -65,7 +66,7 @@ header a {
 .nav-toggle-label img {
         width:40px;
         height:30px;
-        margin-right:40px;
+        margin-right:30px;
         padding-top:6px;
 
 }
