@@ -31,18 +31,17 @@ header {
         position: fixed;
         width: 100%;
         z-index: 99;
-        box-shadow: 0 2px 2px #3a3a3a;       
-        display:flex;
-        justify-content:flex-start;
-        align-items:baseline
-       
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline
 }
 
 /**header the first line words*/
 header a {
         text-decoration: none;
         color: inherit;
-       
+
 }
 
 /*Set logo to Oswald font family*/
@@ -55,29 +54,31 @@ header a {
 
 /**input in header*/
 /*nav-toggle*/
-#nav-toggle:checked ~ nav {
-       display:block;
+#nav-toggle:checked~nav {
+        display: block;
 }
+
 #nav-toggle {
-        display:none;
+        display: none;
 }
-.nav-toggle-roll {
-        font-size:2em;
-        
+
+.nav-toggle-label {
+        font-size: 2em;
+
 }
 
 /**nav bar in header*/
 /* styling nav bar to scoll*/
 nav {
-        position:absolute;
+        position: absolute;
         background-color: #ffffff;
-        width:100%;
-        padding:0 1em;
+        width: 100%;
+        padding: 0 1em;
         box-shadow: 0 2px 2px #3a3a3a;
-        left:0;
-        display:none;
-        top:100%;
-        
+        left: 0;
+        display: none;
+        top: 100%;
+
 }
 
 
@@ -88,10 +89,11 @@ nav {
 }
 
 #menu>li {
-        margin-bottom:1em;
+        margin-bottom: 1em;
 }
+
 .active {
-        border-bottom:1px solid #353535;
+        border-bottom: 1px solid #353535;
 }
 
 
@@ -101,7 +103,7 @@ main {
         background-color: lightblue;
         /* Make main to take up any surplus to push down the footer*/
         flex: 1 0 auto;
-        margin-top:47px;
+        margin-top: 47px;
 }
 
 
@@ -110,4 +112,67 @@ main {
 /* Footer---------------start */
 footer {
         background-color: orange;
+}
+
+/*******Media query:tablets and larger(768px and up)*/
+@media screen and (min-width:768px) {
+
+        header {
+                justify-content: space-between;
+        }
+
+        /**header the first line words*/
+
+        #logo {
+                font-size: 280%;
+                line-height: 75px;
+                margin: 0 0.5rem;
+        }
+
+}
+
+/**input in header*/
+/*nav-toggle*/
+
+
+.nav-toggle-label {
+
+        display: none;
+
+}
+
+/**nav bar in header*/
+
+nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 0.5rem;
+        box-shadow: none;
+        border-left: none;
+
+}
+
+/*ul class :change to row*/
+#menu {
+
+        display: flex;
+
+}
+
+#menu>li {
+
+        padding-left: 1.5rem; /* Get space for three lists*/
+}
+
+
+
+/* Main =================start*/
+main {
+      
+        margin-top: 79px;
+}
+
+
+
 }
