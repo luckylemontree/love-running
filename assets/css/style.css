@@ -1,14 +1,18 @@
+/* Google fonts-Lato import */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-        padding:0px;
-        margin:0px;
-        box-sizing:border-box;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
 }
 
 /*General styles */
 body {
-        min-height:100vh;
-        display:flex;
+        min-height: 100vh;
+        display: flex;
         flex-direction: column;
         /*Generic project style*/
         color: #3a3a3a;
@@ -24,7 +28,7 @@ header {
 main {
         background-color: lightblue;
         /* Make main to take up any surplus to push down the footer*/
-        flex:1 0 auto;
+        flex: 1 0 auto;
 }
 
 /* Footer */
