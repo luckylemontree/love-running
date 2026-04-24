@@ -205,10 +205,18 @@ main {
         justify-content:center;
 }
 */
+/**meetup times section**/
+#times {
+        width:100%;
+        background:url("../images/dublin-city.webp") no-repeat center / cover;
+        display:flex;
+        flex-wrap:wrap;
+}
 #times img {
          width: 0.8em;
          height: 0.8em;
 }
+
 
 /***Footer---------------start ***/
 
