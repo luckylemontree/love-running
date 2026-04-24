@@ -265,6 +265,17 @@ Each div will expand to fill the available space on its row.*/
 }
 
 /*************************************************/
+/*************Media query:tablets and larger(576px and up)*/
+@media screen and (min-width:576px) {
+        /*Gallery*/
+        #photoes {
+                column-count:2;
+                column-gap: 0;
+        }
+}
+
+
+/*************************************************/
 /*************Media query:tablets and larger(768px and up)*/
 @media screen and (min-width:768px) {
 
@@ -340,8 +351,13 @@ Each div will expand to fill the available space on its row.*/
                 align-self: flex-end;
         }
 
-
+  /*Gallery*/
+        #photoes {
+                column-count:3;
+                column-gap: 0;
+        }
 }
+
 
 /*************************************************/
 /*************Media query:tablets and larger(992px and up)*/
@@ -350,6 +366,12 @@ Each div will expand to fill the available space on its row.*/
         /***header***/
         #menu a:hover {
                 border-bottom: 1px solid #353535;
+        }
+
+         /*Gallery*/
+        #photoes {
+                column-count:4;
+                column-gap: 0;
         }
 }
 
