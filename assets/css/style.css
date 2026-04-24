@@ -243,8 +243,11 @@ Each div will expand to fill the available space on its row.*/
 /*++++++++++++++++++++Gallery Page++++++++++++*/
 #photoes img {
         width:100%;
+        line-height:1em;
 }
-
+#photoes {
+        line-height:0;
+}
 /***Footer---------------start ***/
 
 /**footer icon **/
