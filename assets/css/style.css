@@ -137,14 +137,19 @@ main {
 
 }
 
-#cover-text>h2,
-#cover-text>h3 {
+
+#cover-text> h2, #cover-text>h3 {
         color: #ffffff;
 }
 
 #adv-index li {
         margin-bottom: 5px;
 
+}
+
+/** Reasons for running (index)**/
+#reasons {
+        
 }
 
 /***Footer---------------start ***/
