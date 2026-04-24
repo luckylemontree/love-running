@@ -149,9 +149,18 @@ main {
 
 /** Reasons for running (index)**/
 #reasons {
-        
+        width:90%;
+        margin:20px auto;
 }
 
+#benefits {
+        margin-top:20px;
+}
+#benefit-physical > div {
+         line-height:20px;
+         margin-bottom:20px;
+         
+}
 /***Footer---------------start ***/
 
 /**footer icon **/
