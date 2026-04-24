@@ -24,15 +24,18 @@ body {
 
 }
 
-h1,h2,h3 {
+/*Set Oswald font family to the body*/
+h1,
+h2,
+h3 {
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
         letter-spacing: 5px;
         color: #252525;
-       
+
 }
 
-/* Header---------------------start*/
+/***header------------------start***/
 header {
         background-color: #ffffff;
         padding: 0 1em;
@@ -45,14 +48,14 @@ header {
         align-items: baseline
 }
 
-/**header the first line words*/
+/*header the first line words*/
 header a {
         text-decoration: none;
         color: inherit;
 
 }
 
-/*Set logo to Oswald font family*/
+
 
 
 /**input in header*/
@@ -104,7 +107,7 @@ nav {
 
 
 
-/* Main =================start*/
+/***Main =================start***/
 main {
 
         /* Make main to take up any surplus to push down the footer*/
@@ -117,34 +120,36 @@ main {
         height: 90vh;
         width: 100%;
         background: url(../images/hero-image.webp) no-repeat center center/cover;
-        position:relative
+        position: relative
 }
 
-/*Adv on the index*/
+/**Adv on the index**/
 #cover-text {
-       /*cover text background is pink and transparent*/
+        /*cover text background is pink and transparent*/
         background-color: rgba(250, 120, 141, 0.7);
-        font-size:130%;
-        position:absolute;
-        bottom:30px;
-        width:80%;
-        min-height:200px;
-        padding-top:50px;
-        padding-left:10px;          
-        
-        }
-#cover-text>h2,#cover-text>h3 {
-        color:#ffffff;
+        font-size: 130%;
+        position: absolute;
+        bottom: 30px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 50px;
+        padding-left: 10px;
+
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+        color: #ffffff;
 }
 
 #adv-index li {
-        margin-bottom:5px;
-        
+        margin-bottom: 5px;
+
 }
 
-/* Footer---------------start */
+/***Footer---------------start ***/
 
-/*footer icon */
+/**footer icon **/
 #social-network {
         display: flex;
         justify-content: space-evenly;
@@ -162,22 +167,15 @@ main {
 /*************Media query:tablets and larger(768px and up)*/
 @media screen and (min-width:768px) {
 
-        header {
-                justify-content: space-between;
-        }
 
         /**header the first line words*/
-
         #logo {
                 font-size: 280%;
                 line-height: 75px;
                 margin: 0 0.5rem;
         }
 
-
         /**input in header*/
-
-
         .nav-toggle-label {
 
                 display: none;
@@ -185,7 +183,6 @@ main {
         }
 
         /**nav bar in header*/
-
         nav {
                 display: block;
                 position: relative;
@@ -193,30 +190,25 @@ main {
                 padding-right: 0.5rem;
                 box-shadow: none;
                 border-left: none;
-
         }
 
         /*ul class :change to row*/
         #menu {
 
                 display: flex;
-
         }
 
         #menu>li {
-
-                padding-left: 1.5rem;
                 /* Get space for three lists*/
+                padding-left: 1.5rem;
+
         }
-
-
 
         /* Main =================start*/
         main {
 
                 margin-top: 79px;
         }
-
 }
 
 /*************************************************/
@@ -225,7 +217,5 @@ main {
         #menu a:hover {
                 border-bottom: 1px solid #353535;
         }
-
-
 
 }
