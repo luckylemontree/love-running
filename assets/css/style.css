@@ -172,15 +172,25 @@ main {
      margin:5px 0;
 }
 /*runner under reasons section*/
+
 #runner {
            width:90vw;
            height: 90vw;
            border-radius: 50%;
            background: url(../images/runner-reasons-image.webp) no-repeat top center/cover ;
-           margin-bottom:20px;
            max-width:300px;
            max-height:300px;
+           display:block;
+           margin:20px auto ;
+           
 }
+/*/* No need
+#benefits-img {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+}
+*/
 
 /***Footer---------------start ***/
 
