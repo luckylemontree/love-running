@@ -212,6 +212,13 @@ main {
         display:flex;
         flex-wrap:wrap;
 }
+/* time div styling*/
+#times div {
+        color:#ffffff;
+        background-color: rgb(0,0,0,.6);
+        padding:5px;
+        text-align: center;
+}
 #times img {
          width: 0.8em;
          height: 0.8em;
