@@ -34,8 +34,9 @@ h3 {
         color: #252525;
 
 }
+
 .heddin-heading {
-        display:none;
+        display: none;
 }
 
 /***header------------------start***/
@@ -242,12 +243,69 @@ Each div will expand to fill the available space on its row.*/
 
 /*++++++++++++++++++++Gallery Page++++++++++++*/
 #photoes img {
-        width:100%;
-        line-height:1em;
+        width: 100%;
+        line-height: 1em;
 }
+
 #photoes {
-        line-height:0;
+        line-height: 0;
 }
+
+/*++++++++++++++++++++Signup Page++++++++++++*/
+/***main ****/
+#signup {
+
+        background: url("../images/signup-image.webp") no-repeat;
+        background-size: cover;
+
+        background-position: 75%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+}
+
+#signup-form {
+
+        color: #ffffff;
+
+}
+
+#signup-form i {
+        color: #ffffff;
+}
+
+#signup-form h2 {
+        color: #ffffff;
+        margin: 40px 50px 40px 30px;
+
+}
+
+#person-details {
+        margin: 20px 30px 0 30px;
+}
+
+#running-choice {
+        
+        text-align: center;
+        word-spacing: 6px;
+        width:250px;
+
+}
+
+.join-button {
+        padding: 5px 5px;
+        /* top/bottom = 15px, left/right = 32px */
+        border-radius: 5px;
+        font-size: 100%;
+        color: #ffffff;
+        border: none;
+        background-color: #454b1b;
+        margin: 30px;
+        box-shadow:0 0 6px #454b1b ;
+
+
+}
+
 /***Footer---------------start ***/
 
 /**footer icon **/
@@ -267,9 +325,10 @@ Each div will expand to fill the available space on its row.*/
 /*************************************************/
 /*************Media query:tablets and larger(576px and up)*/
 @media screen and (min-width:576px) {
+
         /*Gallery*/
         #photoes {
-                column-count:2;
+                column-count: 2;
                 column-gap: 0;
         }
 }
@@ -351,9 +410,9 @@ Each div will expand to fill the available space on its row.*/
                 align-self: flex-end;
         }
 
-  /*Gallery*/
+        /*Gallery*/
         #photoes {
-                column-count:3;
+                column-count: 3;
                 column-gap: 0;
         }
 }
@@ -368,9 +427,9 @@ Each div will expand to fill the available space on its row.*/
                 border-bottom: 1px solid #353535;
         }
 
-         /*Gallery*/
+        /*Gallery*/
         #photoes {
-                column-count:4;
+                column-count: 4;
                 column-gap: 0;
         }
 }
