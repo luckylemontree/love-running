@@ -240,6 +240,10 @@ Each div will expand to fill the available space on its row.*/
         height: 0.8em;
 }
 
+/*++++++++++++++++++++Gallery Page++++++++++++*/
+#photoes img {
+        width:100%;
+}
 
 /***Footer---------------start ***/
 
