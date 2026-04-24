@@ -54,8 +54,10 @@ header a {
         color: inherit;
 
 }
-
-
+#logo {
+                font-size: 150%;
+               
+        }
 
 
 /**input in header*/
@@ -69,10 +71,10 @@ header a {
 }
 
 .nav-toggle-label img {
-        width: 40px;
+        width: 30px;
         height: 30px;
-        margin-right: 30px;
-        padding-top: 6px;
+        margin-right: 2px;
+        padding-top:10px;
 
 }
 
@@ -161,9 +163,14 @@ main {
          margin-bottom:20px;
          
 }
-#benefits-physical img {
+/* all img and p in benefits*/
+#benefits img {
         width:0.8em;
         height:0.8em;
+}
+#benefits p {
+   border-top:1px solid #3a3a3a;
+   margin:5px 0;
 }
 /***Footer---------------start ***/
 
