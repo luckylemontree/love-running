@@ -163,23 +163,23 @@ main {
          margin-bottom:20px;
          
 }
-/* All imgs and p in benefits*/
+/* all imgs and p in benefits*/
 #benefits img {
         width:0.8em;
         height:0.8em;
 }
 #benefits p {
-   border-top:1px solid #3a3a3a;
-   margin:5px 0;
+     margin:5px 0;
 }
 /*runner under reasons section*/
-#runner img {
-           width:65%;
-           height:65%;
+#runner {
+           width:90vw;
+           height: 90vw;
            border-radius: 50%;
-           display: block;
-           margin: 0 auto;
+           background: url(../images/runner-reasons-image.webp) no-repeat center center/cover ;
+           margin-bottom:20px;
 }
+
 /***Footer---------------start ***/
 
 /**footer icon **/
