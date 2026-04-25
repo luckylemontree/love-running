@@ -446,23 +446,27 @@ Each div will expand to fill the available space on its row.*/
 #signup-form h2 {
         color: #ffffff;
         margin: 40px 5px 40px 10px;
-        font-size:1.4em;
-        color:rgba(250, 254, 250, 0.6);
+        font-size: 1.4em;
+        color: rgba(250, 254, 250, 0.6);
 }
+
 #signup-form i {
         color: rgba(250, 254, 250, 0.6);
 }
+
 #person-details label {
-         color: rgba(250, 254, 250, 0.6);
+        color: rgba(250, 254, 250, 0.6);
 }
 
-}
+
 #person-details input:hover {
         border-color: #f16c6b;
 }
+
 #running-choice {
-   color: rgba(250, 254, 250, 0.6);
+        color: rgba(250, 254, 250, 0.6);
 }
+
 .join-button:hover {
 
         background-color: #fafafa;
