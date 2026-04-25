@@ -285,10 +285,10 @@ Each div will expand to fill the available space on its row.*/
 }
 
 #running-choice {
-        
+
         text-align: center;
         word-spacing: 6px;
-        width:250px;
+        width: 250px;
 
 }
 
@@ -301,7 +301,7 @@ Each div will expand to fill the available space on its row.*/
         border: none;
         background-color: #454b1b;
         margin: 30px;
-        box-shadow:0 0 6px #454b1b ;
+        box-shadow: 0 0 6px #454b1b;
 
 
 }
@@ -410,11 +410,38 @@ Each div will expand to fill the available space on its row.*/
                 align-self: flex-end;
         }
 
-        /*Gallery*/
+        /**Gallery page*/
         #photoes {
                 column-count: 3;
                 column-gap: 0;
         }
+
+        /**Signup page**/
+        #person-details input {
+                display: block;
+        }
+
+        /*** signup form***/
+        #signup {
+                background-position: 51%;
+        }
+
+        #signup-form {
+                margin-top: 150px;
+                margin-left: 10%;
+                max-width: 400px;
+        }
+
+        #person-details input:hover {
+                border-color: #f16c6b;
+        }
+
+        .join-button:hover {
+
+                background-color: #fafafa;
+                color: #454b1b;
+        }
+
 }
 
 
