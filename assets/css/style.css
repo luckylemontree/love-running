@@ -209,7 +209,11 @@ main {
         justify-content:center;
 }
 */
-/**meetup times section**/
+/**              meetup times section               **/
+.heddin-heading {
+        display: none;
+}
+
 #times {
         width: 100%;
         background: url("../images/dublin-city.webp") no-repeat center / cover;
@@ -241,6 +245,7 @@ Each div will expand to fill the available space on its row.*/
         height: 0.8em;
 }
 
+
 /*++++++++++++++++++++Gallery Page++++++++++++*/
 #photoes img {
         width: 100%;
@@ -251,9 +256,6 @@ Each div will expand to fill the available space on its row.*/
         line-height: 0;
 }
 
-#hidden-heading {
-        display: none;
-}
 
 /*++++++++++++++++++++Signup Page++++++++++++*/
 /***main ****/
@@ -413,6 +415,10 @@ Each div will expand to fill the available space on its row.*/
         #benefits-mental>div {
                 text-align: end;
                 align-self: flex-end;
+                margin-left: 155px;
+        }
+        #benefits-physical>div {
+                margin-left: 10px;
         }
 
         /**Gallery page*/
