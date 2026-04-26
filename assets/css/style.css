@@ -251,7 +251,7 @@ Each div will expand to fill the available space on its row.*/
         line-height: 0;
 }
 
-#hidden heading {
+#hidden-heading {
         display: none;
 }
 
