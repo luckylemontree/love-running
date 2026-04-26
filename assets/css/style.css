@@ -263,7 +263,6 @@ Each div will expand to fill the available space on its row.*/
 
         background: url("../images/signup-image.webp") no-repeat;
         background-size: cover;
-
         background-position: 75%;
         display: flex;
         flex-direction: column;
@@ -417,6 +416,7 @@ Each div will expand to fill the available space on its row.*/
                 align-self: flex-end;
                 margin-left: 155px;
         }
+
         #benefits-physical>div {
                 margin-left: 10px;
         }
@@ -428,7 +428,7 @@ Each div will expand to fill the available space on its row.*/
         }
 
 
-}
+
 
 /**Signup page**/
 
@@ -442,6 +442,7 @@ Each div will expand to fill the available space on its row.*/
 }
 
 /*** signup form***/
+
 #signup {
         background-position: 51%;
 }
@@ -483,7 +484,7 @@ Each div will expand to fill the available space on its row.*/
         color: #454b1b;
 }
 
-
+}
 
 
 /*************************************************/
