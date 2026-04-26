@@ -430,59 +430,59 @@ Each div will expand to fill the available space on its row.*/
 
 
 
-/**Signup page**/
+        /**Signup page**/
 
 
 
-#person-details input {
-        display: block;
-        width: 20vw;
-        background-color: rgba(1, 11, 1, 0.1);
-        border: 1px solid white
-}
+        #person-details input {
+                display: block;
+                width: 20vw;
+                background-color: rgba(1, 11, 1, 0.1);
+                border: 1px solid white
+        }
 
-/*** signup form***/
+        /*** signup form***/
 
-#signup {
-        background-position: 51%;
-}
+        #signup {
+                background-position: 51%;
+        }
 
-#signup-form {
-        margin-top: 150px;
-        margin-left: 10%;
-        max-width: 400px;
-        background-color: rgba(1, 11, 1, 0.4);
-}
+        #signup-form {
+                margin-top: 150px;
+                margin-left: 10%;
+                max-width: 400px;
+                background-color: rgba(1, 11, 1, 0.4);
+        }
 
-#signup-form h2 {
-        color: #ffffff;
-        margin: 40px 5px 40px 10px;
-        font-size: 1.4em;
-        color: rgba(250, 254, 250, 0.6);
-}
+        #signup-form h2 {
+                color: #ffffff;
+                margin: 40px 5px 40px 10px;
+                font-size: 1.4em;
+                color: rgba(250, 254, 250, 0.6);
+        }
 
-#signup-form i {
-        color: rgba(250, 254, 250, 0.6);
-}
+        #signup-form i {
+                color: rgba(250, 254, 250, 0.6);
+        }
 
-#person-details label {
-        color: rgba(250, 254, 250, 0.6);
-}
+        #person-details label {
+                color: rgba(250, 254, 250, 0.6);
+        }
 
 
-#person-details input:hover {
-        border-color: #f16c6b;
-}
+        #person-details input:hover {
+                border-color: #f16c6b;
+        }
 
-#running-choice {
-        color: rgba(250, 254, 250, 0.6);
-}
+        #running-choice {
+                color: rgba(250, 254, 250, 0.6);
+        }
 
-.join-button:hover {
+        .join-button:hover {
 
-        background-color: #fafafa;
-        color: #454b1b;
-}
+                background-color: #fafafa;
+                color: #454b1b;
+        }
 
 }
 
